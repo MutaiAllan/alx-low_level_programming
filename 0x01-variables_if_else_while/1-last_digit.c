@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - prints last digit of random numbers
- *
- * Return: 0
+/**
+ * main - is the starting point of the program
+ * rand - collects the random number
+ * Return: value is zero
  */
 int main(void)
 {
