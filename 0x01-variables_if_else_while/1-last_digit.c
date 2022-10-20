@@ -5,7 +5,7 @@
 /*
  * main - prints last digit of random numbers
  *
- * Return: 0
+ * return: 0
  */
 int main(void)
 {
