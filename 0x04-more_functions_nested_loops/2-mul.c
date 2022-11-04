@@ -5,10 +5,10 @@
  * mul - gives the product of two numbers
  * @a: inputs one number
  * @b: inputs another number
- * Return: 0
+ * Return: product of two numbers
  */
 
 int mul(int a, int b)
 {
-	putchar(a*b);
+	return (a * b);
 }

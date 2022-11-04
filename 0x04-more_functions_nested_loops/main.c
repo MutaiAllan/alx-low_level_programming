@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - check the code
@@ -7,6 +8,7 @@
  */
 int main(void)
 {
-    print_numbers();
+    printf("%d\n", mul(98, 1024));
+    printf("%d\n", mul(-402, 4096));
     return (0);
 }
