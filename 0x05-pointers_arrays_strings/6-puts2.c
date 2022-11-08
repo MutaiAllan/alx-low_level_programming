@@ -1,21 +1,17 @@
 #include "main.h"
+
 /**
  * puts2 - prints a character
  * @str: inputs string
  */
 void puts2(char *str)
 {
-	int length, s;
+	int length;
 
 	length = 0;
 
-	while (str[length] != '\0')
-	{
-		if (length % 2 == 0)
-		{
-			_putchar(str[length]);
-		}
-		length++;
-	}
+	for (length = 0; str[length] != '\0'; length++)
+		_putchar(str[length]);
+
 	_putchar('\n');
 }
