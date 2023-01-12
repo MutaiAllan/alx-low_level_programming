@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * strlen - returns the length of the string
+ * _strlen - returns the length of the string
  * @str: string whose length is to be checked
  *
  * Return: length of the string
@@ -40,7 +40,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	if (mem >= _strlen(s2))
 		mem = _strlen(s2);
-	len = _strlen(s2) + mem + 1;
+	len = _strlen(s2) + mem;
 
 	ptr = malloc(sizeof(*ptr) * len);
 
