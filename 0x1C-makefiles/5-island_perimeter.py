@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Defines a function that calculates perimeter."""
 
 def island_perimeter(grid):
